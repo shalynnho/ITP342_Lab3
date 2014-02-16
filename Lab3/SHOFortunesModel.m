@@ -38,13 +38,19 @@
 
 - (void) removeAnswerAtIndex: (NSUInteger) index
 {
-    
+    if (index < [self.answers count]) {
+        [self.answers removeObjectAtIndex: index];
+    } else {
+        NSLog(@"Error: removeAnswerAtIndex :: index out of bounds.");
+    }
 }
 
 - (void) insertAnswer: (NSString *) answer
               atIndex: (NSUInteger) index
 {
-    
+    if (index < [self.answers count]) {
+        [self.answers insertObject:answer atIndex:index];
+    }
 }
 
 @end
