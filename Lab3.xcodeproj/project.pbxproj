@@ -24,6 +24,7 @@
 		4067353D18B1717C0094A7AC /* CrystalBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067353A18B1717C0094A7AC /* CrystalBall.png */; };
 		4067353E18B1717C0094A7AC /* CrystalBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067353B18B1717C0094A7AC /* CrystalBall@2x.png */; };
 		4067353F18B1717C0094A7AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067353C18B1717C0094A7AC /* Icon.png */; };
+		4067354218B17CDA0094A7AC /* SHOFortunesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4067354118B17CDA0094A7AC /* SHOFortunesModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		4067353A18B1717C0094A7AC /* CrystalBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrystalBall.png; sourceTree = "<group>"; };
 		4067353B18B1717C0094A7AC /* CrystalBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CrystalBall@2x.png"; sourceTree = "<group>"; };
 		4067353C18B1717C0094A7AC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4067354018B17CDA0094A7AC /* SHOFortunesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHOFortunesModel.h; sourceTree = "<group>"; };
+		4067354118B17CDA0094A7AC /* SHOFortunesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHOFortunesModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				4067351618B171510094A7AC /* Main.storyboard */,
 				4067351918B171510094A7AC /* SHOViewController.h */,
 				4067351A18B171510094A7AC /* SHOViewController.m */,
+				4067354018B17CDA0094A7AC /* SHOFortunesModel.h */,
+				4067354118B17CDA0094A7AC /* SHOFortunesModel.m */,
 				4067351C18B171510094A7AC /* Images.xcassets */,
 				4067353918B1715B0094A7AC /* Resources */,
 				4067350B18B171510094A7AC /* Supporting Files */,
@@ -272,6 +277,7 @@
 			files = (
 				4067351B18B171510094A7AC /* SHOViewController.m in Sources */,
 				4067351118B171510094A7AC /* main.m in Sources */,
+				4067354218B17CDA0094A7AC /* SHOFortunesModel.m in Sources */,
 				4067351518B171510094A7AC /* SHOAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
