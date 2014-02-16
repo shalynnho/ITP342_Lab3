@@ -21,6 +21,9 @@
 		4067352618B171510094A7AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4067350818B171510094A7AC /* UIKit.framework */; };
 		4067352E18B171510094A7AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4067352C18B171510094A7AC /* InfoPlist.strings */; };
 		4067353018B171510094A7AC /* Lab3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4067352F18B171510094A7AC /* Lab3Tests.m */; };
+		4067353D18B1717C0094A7AC /* CrystalBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067353A18B1717C0094A7AC /* CrystalBall.png */; };
+		4067353E18B1717C0094A7AC /* CrystalBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067353B18B1717C0094A7AC /* CrystalBall@2x.png */; };
+		4067353F18B1717C0094A7AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067353C18B1717C0094A7AC /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		4067352B18B171510094A7AC /* Lab3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab3Tests-Info.plist"; sourceTree = "<group>"; };
 		4067352D18B171510094A7AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4067352F18B171510094A7AC /* Lab3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab3Tests.m; sourceTree = "<group>"; };
+		4067353A18B1717C0094A7AC /* CrystalBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrystalBall.png; sourceTree = "<group>"; };
+		4067353B18B1717C0094A7AC /* CrystalBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CrystalBall@2x.png"; sourceTree = "<group>"; };
+		4067353C18B1717C0094A7AC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,7 @@
 				4067351918B171510094A7AC /* SHOViewController.h */,
 				4067351A18B171510094A7AC /* SHOViewController.m */,
 				4067351C18B171510094A7AC /* Images.xcassets */,
+				4067353918B1715B0094A7AC /* Resources */,
 				4067350B18B171510094A7AC /* Supporting Files */,
 			);
 			path = Lab3;
@@ -150,6 +157,16 @@
 				4067352C18B171510094A7AC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4067353918B1715B0094A7AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4067353A18B1717C0094A7AC /* CrystalBall.png */,
+				4067353B18B1717C0094A7AC /* CrystalBall@2x.png */,
+				4067353C18B1717C0094A7AC /* Icon.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4067353F18B1717C0094A7AC /* Icon.png in Resources */,
 				4067351D18B171510094A7AC /* Images.xcassets in Resources */,
 				4067350F18B171510094A7AC /* InfoPlist.strings in Resources */,
 				4067351818B171510094A7AC /* Main.storyboard in Resources */,
+				4067353D18B1717C0094A7AC /* CrystalBall.png in Resources */,
+				4067353E18B1717C0094A7AC /* CrystalBall@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
