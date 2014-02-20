@@ -32,6 +32,15 @@
     
     // only recognize single taps if they are not the first of two taps
     [singleTap requireGestureRecognizerToFail:doubleTap];
+    
+    // testing add/remove
+    NSLog(@"BEGIN TEST :: Number of answers: %d", [self.model numberOfAnswers]);
+    NSLog(@">> Removing at index 2");
+    [self.model removeAnswerAtIndex:2];
+    NSLog(@"Number of answers: %d", [self.model numberOfAnswers]);
+    NSLog(@">> Inserting at index 1");
+    [self.model insertAnswer:@"Inserted answer!" atIndex:1];
+    NSLog(@"END TEST :: Number of answers: %d", [self.model numberOfAnswers]);
 }
 
 - (void) displayAnswer: (NSString*) answer {
@@ -67,6 +76,21 @@
 
 - (void) doubleTapRecognized: (UITapGestureRecognizer*) recognizer {
     [self displayAnswer:[self.model secretAnswer]];
+}
+
+- (BOOL) canBecomeFirstResponder {
+    return YES;
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+    [self becomeFirstResponder];
+}
+
+- (void) motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+    if (motion == UIEventSubtypeMotionShake) {
+        NSLog(@"You shook me!");
+        [self displayAnswer:[self.model randomAnswer]];
+    }
 }
 
 - (void) didReceiveMemoryWarning
