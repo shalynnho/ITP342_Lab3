@@ -14,6 +14,7 @@
 
 - (NSString *) randomAnswer;
 - (NSUInteger) numberOfAnswers;
+- (NSString *) answerAtIndex: (NSUInteger) index;
 - (void) removeAnswerAtIndex: (NSUInteger) index;
 - (void) insertAnswer: (NSString *) answer
               atIndex: (NSUInteger) index;

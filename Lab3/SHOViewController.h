@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SHOFortunesModel.h"
 
 @interface SHOViewController : UIViewController
 
