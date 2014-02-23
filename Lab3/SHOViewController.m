@@ -39,7 +39,7 @@
     [self.model removeAnswerAtIndex:2];
     NSLog(@"Number of answers: %d", [self.model numberOfAnswers]);
     NSLog(@">> Inserting at index 1");
-    [self.model insertAnswer:@"Inserted answer!" atIndex:1];
+    [self.model insertAnswer:@"Do not fear what you don't know." atIndex:1];
     NSLog(@"END TEST :: Number of answers: %d", [self.model numberOfAnswers]);
 }
 

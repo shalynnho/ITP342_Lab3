@@ -20,8 +20,21 @@
 {
     self = [super init];
     if (self) {
-        self.secretAnswer = [[NSString alloc] initWithFormat:@"This is the secret answer."];
-        self.answers = [[NSMutableArray alloc] initWithObjects:@"Answer1", @"Answer2", @"Answer3", @"Answer4", @"Answer5", nil];
+        self.secretAnswer = [[NSString alloc] initWithFormat:@"The best thing you can be is happy."];
+        self.answers = [[NSMutableArray alloc] initWithObjects:
+                        @"You will become a crazy cat person.",
+                        @"Work hard, it will be worth it.",
+                        @"It's never too late.",
+                        @"Every day is a new day.",
+                        @"Hug a fuzzy cat!",
+                        @"Lucky number 19!",
+                        @"Live for the moment",
+                        @"Smile like you mean it.",
+                        @"Do something nice for someone everyday.",
+                        @"I believe you can fly."
+                        @"Watch cat videos. :)",
+                        @"Pay every kind act forward.",
+                        @"Laugh daily, live longer.", nil];
     }
     return self;
 }
